@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contractor Ads | Meta ads for auto detailers</title>
+<meta name="description" content="Facebook and Instagram ads for auto detailers, with instant text follow up so leads actually pick up and book.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%2317181B'/%3E%3Crect x='4' y='4' width='8' height='8' fill='%23B75D43'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#17181B;--ink-2:#202227;--line:#2E3036;--line-2:#3A3D44;--paper:#F3F1EC;--rust:#B75D43;--rust-lt:#E08A68;--muted:#A9ABB1;--soft:#C9CACE;--ink-muted:#4A4C52}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:82px}
+body{margin:0;background:var(--ink);color:var(--paper);font-family:'Instrument Sans','Helvetica Neue',Helvetica,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--rust-lt)}a:hover{color:var(--paper)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--rust-lt);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:24px;padding-right:24px}
+.display{font-family:'Archivo','Arial Narrow',sans-serif;font-weight:800;font-stretch:112%;letter-spacing:-0.02em;line-height:1;margin:0}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.sq{width:10px;height:10px;background:var(--rust);display:inline-block;flex:none}
+.btn{background:var(--rust);color:#fff;text-decoration:none;padding:16px 28px;font-weight:600;min-height:52px;display:inline-flex;align-items:center}
+.btn:hover{background:#9F4E37;color:#fff}
+
+/* Nav */
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--ink);z-index:10}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
+.logo img{height:24px;width:auto}
+.nav-links{display:flex;align-items:center;gap:32px;font-size:15px;font-weight:500}
+.nav-links a{color:var(--paper);text-decoration:none}
+.nav-links .btn{padding:12px 20px;min-height:44px;color:#fff}
+.nav-toggle{display:none;background:transparent;border:1px solid var(--line-2);color:var(--paper);width:48px;height:48px;align-items:center;justify-content:center;cursor:pointer}
+.mobile-menu{display:none;flex-direction:column;gap:4px;padding:8px 24px 24px;font-size:18px;font-weight:500}
+.mobile-menu a{color:var(--paper);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--line)}
+.mobile-menu .btn{justify-content:center;margin-top:12px;border:0;color:#fff}
+.mobile-menu.open{display:flex}
+@media (max-width:760px){.nav-links{display:none}.nav-toggle{display:inline-flex}}
+
+/* Hero */
+.hero{padding-top:88px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:56px;align-items:flex-end}
+.hero-copy{flex:999 1 520px;min-width:0}
+.eyebrow{margin:0 0 24px;color:var(--muted);display:flex;align-items:center;gap:10px}
+.hero h1{font-size:clamp(44px,7vw,92px);line-height:.98;letter-spacing:-.025em;max-width:13ch}
+.hero .lede{margin:32px 0 0;max-width:46ch;font-size:19px;color:var(--soft)}
+.ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
+.link-btn{color:var(--paper);text-decoration:none;padding:16px 4px;font-weight:500;min-height:52px;display:inline-flex;align-items:center;border-bottom:1px solid #5A5D64}
+.week{flex:1 1 380px;min-width:0;margin:0;background:var(--ink-2);border:1px solid var(--line);padding:24px}
+.week-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:18px}
+.week-head strong{font-family:'Archivo',sans-serif;font-weight:700;font-size:18px}
+.week-head .mono{font-size:12px;color:var(--muted)}
+.day{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;margin-bottom:8px;font-size:14px}
+.day .mono{font-size:12px;color:var(--muted);padding-top:10px;letter-spacing:.04em}
+.slots{display:flex;gap:6px;flex-wrap:wrap}
+.slot{background:var(--rust);color:#fff;padding:9px 12px;font-weight:500;flex:1 1 140px}
+.slot.open{background:transparent;color:#6E7178;border:1px dashed var(--line-2);padding:8px 12px}
+.week figcaption{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+/* Bands */
+.band{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.band .wrap{padding-top:56px;padding-bottom:56px;display:flex;flex-wrap:wrap;gap:40px 64px;align-items:baseline}
+.band h2{margin:0;flex:1 1 260px;font-family:'Archivo',sans-serif;font-weight:700;font-stretch:108%;font-size:26px;line-height:1.15}
+.band p{margin:0;flex:3 1 480px;color:var(--soft);max-width:62ch}
+
+/* How */
+.light{background:var(--paper);color:var(--ink)}
+.how .wrap{padding-top:104px;padding-bottom:104px}
+.how-head{display:flex;flex-wrap:wrap;gap:24px 64px;align-items:flex-end;justify-content:space-between;margin-bottom:64px}
+.how-head h2{font-size:clamp(34px,4.6vw,60px);max-width:14ch}
+.how-head p{margin:0;max-width:40ch;color:var(--ink-muted)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));border-top:2px solid var(--ink)}
+.steps li{padding:28px 28px 36px 0;border-bottom:1px solid #CFCCC4}
+.steps .mono{color:var(--rust);display:block;margin-bottom:20px;font-size:13px}
+.steps h3{margin:0 0 12px;font-family:'Archivo',sans-serif;font-weight:700;font-size:22px;line-height:1.2}
+.steps p{margin:0;color:var(--ink-muted);font-size:16px}
+
+/* Included */
+.included{padding-top:104px;padding-bottom:104px;display:flex;flex-wrap:wrap;gap:48px 80px}
+.included h2,.faq h2{flex:1 1 280px;font-size:clamp(32px,4vw,52px)}
+.inc-list{flex:2 1 520px;min-width:0;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:32px 40px}
+.inc-list li{display:flex;gap:14px}
+.inc-list .sq{margin-top:9px}
+.inc-list h3{margin:0 0 6px;font-family:'Archivo',sans-serif;font-weight:700;font-size:19px}
+.inc-list p{margin:0;color:var(--muted);font-size:16px}
+
+/* FAQ */
+.faq{border-top:1px solid var(--line)}
+.faq .wrap{padding-top:96px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:40px 80px}
+.faq-list{flex:2 1 560px;min-width:0;border-top:1px solid var(--line-2)}
+.faq-item{border-bottom:1px solid var(--line-2)}
+.faq-item button{width:100%;background:transparent;border:0;color:var(--paper);text-align:left;padding:22px 0;min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:20px;cursor:pointer;font-family:'Archivo',sans-serif;font-weight:600;font-size:19px}
+.faq-item .sign{flex:none;font-family:'IBM Plex Mono',monospace;font-size:20px;color:var(--rust-lt)}
+.faq-item p{margin:0;padding:0 0 24px;color:var(--soft);max-width:60ch}
+.faq-item p[hidden]{display:none}
+
+/* Book */
+.book{background:var(--rust);color:#fff}
+.book .wrap{padding-top:96px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:48px;align-items:center}
+.book-copy{flex:1 1 380px;min-width:0}
+.book h2{margin:0 0 20px;font-size:clamp(36px,5vw,64px);line-height:.98;max-width:12ch}
+.book-copy p{margin:0;font-size:18px;max-width:40ch}
+.cal{flex:1.4 1 420px;min-width:0;background:#fff;color:var(--ink)}
+.calendly-inline-widget{min-width:280px;height:700px}
+.cal-fallback{padding:20px 24px;border-top:1px solid #E2DFD8;font-size:15px}
+.cal-fallback a{color:var(--ink);font-weight:600}
+
+footer .wrap{padding-top:40px;padding-bottom:48px;display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.wordmark{font-family:'Archivo',sans-serif;font-weight:800;font-size:20px;color:var(--paper);display:inline-flex;align-items:baseline;gap:2px}.wordmark .sq{width:7px;height:7px}
+footer a{color:var(--soft)}
+footer p{margin:0;width:100%}
+
+@media (prefers-reduced-motion:no-preference){
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}.rise-2{animation-delay:.12s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+<nav class="wrap" aria-label="Main">
+<a href="#top" class="logo" aria-label="Contractor Ads home"><img src="data:image/png;base64,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" alt="Contractor Ads" width="210" height="24"></a>
+<div class="nav-links">
+<a href="#how">How it works</a>
+<a href="#faq">FAQ</a>
+<a href="#book" class="btn">Book a call</a>
+</div>
+<button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16"/></svg>
+</button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+<a href="#how">How it works</a>
+<a href="#faq">FAQ</a>
+<a href="#book" class="btn">Book a call</a>
+</div>
+</header>
+
+<main id="top">
+
+<section class="wrap hero">
+<div class="hero-copy rise">
+<p class="eyebrow mono"><span class="sq" aria-hidden="true"></span>Meta ads for auto detailers only</p>
+<h1 class="display">Booked jobs, not a pile of leads.</h1>
+<p class="lede">We run Facebook and Instagram ads for detailers, then text every lead the second they come in, so the people you call actually pick up and book.</p>
+<div class="ctas">
+<a href="#book" class="btn">Book a 10 minute call</a>
+<a href="#how" class="link-btn">See how it works</a>
+</div>
+</div>
+
+<figure class="week rise rise-2" aria-label="Illustration of a detailer's week filled with booked jobs">
+<div class="week-head"><strong>The goal: a full week</strong><span class="mono">Example</span></div>
+<div class="day"><span class="mono">MON</span><div class="slots"><span class="slot">Full detail</span><span class="slot">Interior</span></div></div>
+<div class="day"><span class="mono">TUE</span><div class="slots"><span class="slot">Ceramic coating</span></div></div>
+<div class="day"><span class="mono">WED</span><div class="slots"><span class="slot">Paint correction</span><span class="slot open">Open</span></div></div>
+<div class="day"><span class="mono">THU</span><div class="slots"><span class="slot">Full detail</span><span class="slot">Maintenance wash</span></div></div>
+<div class="day"><span class="mono">FRI</span><div class="slots"><span class="slot">Interior</span><span class="slot">Full detail</span></div></div>
+<figcaption>Illustration only. Swap in a real client calendar once you have permission.</figcaption>
+</figure>
+</section>
+
+<section class="band">
+<div class="wrap">
+<h2>We only work with detailers.</h2>
+<p>Mobile detailers, shops, ceramic coating and paint correction. One niche means we already know which offers book, which photos stop the scroll, and why a lead who asked for a quote on Tuesday ghosts you by Thursday.</p>
+</div>
+</section>
+
+<section id="how" class="how light">
+<div class="wrap">
+<div class="how-head">
+<h2 class="display">From scroll to booked, in four steps.</h2>
+<p>Most agencies stop at the lead. The part that makes you money is what happens in the first five minutes after it.</p>
+</div>
+<ol class="steps">
+<li><span class="mono">01</span><h3>Ads that show your work</h3><p>Your real before and afters, a clear offer, and copy written for car people. No stock photos of a shiny Lambo you have never touched.</p></li>
+<li><span class="mono">02</span><h3>Forms that filter</h3><p>Higher intent forms ask a couple of real questions up front, so tire kickers drop off before they hit your phone.</p></li>
+<li><span class="mono">03</span><h3>A text before your call</h3><p>Every lead gets an automatic text the moment they submit. When you call a minute later, they already know who you are.</p></li>
+<li><span class="mono">04</span><h3>Meta learns who books</h3><p>Booked and completed jobs get sent back to Meta, so the ads chase people who pay, not people who just fill out forms.</p></li>
+</ol>
+</div>
+</section>
+
+<section class="wrap included">
+<h2 class="display">What you get each month.</h2>
+<ul class="inc-list">
+<li><span class="sq" aria-hidden="true"></span><div><h3>Ad creative and copy</h3><p>We build and rotate the ads, and swap them out before they go stale.</p></div></li>
+<li><span class="sq" aria-hidden="true"></span><div><h3>Campaign management</h3><p>Daily budget, targeting and testing handled for you.</p></div></li>
+<li><span class="sq" aria-hidden="true"></span><div><h3>Instant text follow up</h3><p>Automated texts to every new lead, set up in your CRM.</p></div></li>
+<li><span class="sq" aria-hidden="true"></span><div><h3>Lead pipeline</h3><p>See every lead from new to booked to done, on your phone.</p></div></li>
+<li><span class="sq" aria-hidden="true"></span><div><h3>Booking tracking</h3><p>Know what each booked job cost you in ad spend.</p></div></li>
+<li><span class="sq" aria-hidden="true"></span><div><h3>Website, if you need one</h3><p>A fast site that matches your ads. Optional add on.</p></div></li>
+</ul>
+</section>
+
+<section id="faq" class="faq">
+<div class="wrap">
+<h2 class="display">Fair questions.</h2>
+<div class="faq-list">
+<div class="faq-item"><button type="button" aria-expanded="true"><span>How much do I need to spend on ads?</span><span class="sign" aria-hidden="true">&minus;</span></button><p>Most detailers start around $20 to $25 a day. That goes straight to Meta, separate from our fee.</p></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>How fast do leads start coming in?</span><span class="sign" aria-hidden="true">+</span></button><p hidden>Usually within the first few days of going live. The first couple of weeks are for testing which offer books best in your area.</p></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>Am I locked into a contract?</span><span class="sign" aria-hidden="true">+</span></button><p hidden>No! You can cancel whenever you want.</p></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>What if leads don't pick up when I call?</span><span class="sign" aria-hidden="true">+</span></button><p hidden>That is the exact problem the instant text solves. Your number shows up as someone they just heard from, not a random caller.</p></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>Do I need a CRM already?</span><span class="sign" aria-hidden="true">+</span></button><p hidden>No. We set one up for you and show you how to work leads from the app on your phone.</p></div>
+</div>
+</div>
+</section>
+
+<section id="book" class="book">
+<div class="wrap">
+<div class="book-copy">
+<h2 class="display">Let's look at your numbers.</h2>
+<p>10 minutes. We'll look at your area, your prices and what you're getting from ads now, and tell you straight if we think we can help.</p>
+</div>
+<div class="cal">
+<div class="calendly-inline-widget" data-url="https://calendly.com/contractor-adsagency/30min?hide_gdpr_banner=1"></div>
+<p class="cal-fallback">Calendar not loading? <a href="https://calendly.com/contractor-adsagency/30min" target="_blank" rel="noopener">Book on Calendly</a></p>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<span class="wordmark" aria-label="Contractor Ads">Contractor<span class="sq" aria-hidden="true"></span> Ads</span>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+<a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>
+<a href="#top">Back to top</a>
+</div>
+<p>&copy; 2026 Contractor Ads. Not affiliated with Meta.</p>
+</div>
+</footer>
+
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<script>
+(function(){
+  var toggle=document.querySelector('.nav-toggle');
+  var menu=document.getElementById('mobile-menu');
+  toggle.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded',open?'true':'false');
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open menu');});
+  });
+  document.querySelectorAll('.faq-item button').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=btn.parentNode, ans=item.querySelector('p'), open=btn.getAttribute('aria-expanded')==='true';
+      document.querySelectorAll('.faq-item').forEach(function(other){
+        other.querySelector('button').setAttribute('aria-expanded','false');
+        other.querySelector('p').hidden=true;
+        other.querySelector('.sign').textContent='+';
+      });
+      if(!open){btn.setAttribute('aria-expanded','true');ans.hidden=false;item.querySelector('.sign').textContent='−';}
+    });
+  });
+})();
+</script>
+</body>
+</html>
